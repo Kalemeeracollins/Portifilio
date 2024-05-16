@@ -1,11 +1,11 @@
 import React from "react";
 import { Badge } from "./ui/badge";
-export default function LandingPage() {
+export default function App() {
   return (
     <main
       key="1"
       className="flex flex-col items-center justify-center w-full min-h-screen py-20 bg-gradient-to-r from-green-400 to-blue-500 dark:from-gray-800 dark:to-gray-900">
-      <div className="w-full max-w-3xl">
+      <div className=" max-w-3xl m-2">
         <header className="flex flex-col items-center justify-center w-full mb-10">
           <img
             src="/profile.jpg"
